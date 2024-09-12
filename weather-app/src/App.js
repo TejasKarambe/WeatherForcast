@@ -43,7 +43,7 @@ const App = () => {
   return (
     <Container maxWidth="sm">
       <Box mt={5} textAlign="center">
-        <Typography variant="h3" gutterBottom>Weather Application</Typography>
+        <Typography className="Heading" variant="h3" gutterBottom>Weather Application</Typography>
         <TextField
           variant="outlined"
           label="Enter City"
